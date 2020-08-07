@@ -1,0 +1,276 @@
+*{margin: 0;
+    padding: 0;}
+
+/*header*/
+
+header{
+    background-color: #162133;
+    position: relative;
+    height: 150px;
+     
+}
+
+h1{
+
+    font-weight: bold;
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif, !important;
+    margin-top: 7px;
+    
+
+
+}
+body{
+    background-color: #F3EFEF;
+}
+#title{
+    margin-top: 7%;
+    height: 130px;
+    color: #c4c4c4;
+    text-align: center;
+    
+   
+    position: relative;
+
+}
+#boxlogo{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    
+}
+#logopeugeot{
+    width: 200px;
+     height: 100px;
+     
+}
+
+#entete{
+    display: flex;
+    height: 200px;
+    
+}
+#boxtitreetnav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15% ;
+    align-content: center;
+    position: relative;
+}
+
+/*menu*/
+#menu1{
+    display:flex;
+    justify-content:space-between;
+    background-color: #162133;
+    margin-bottom: 10%;
+    
+   
+}
+a{
+    color: #C4C4C4;
+    text-decoration: none
+}
+
+.nav{
+    width: 100%;
+}
+ul {
+    list-style-type:none;
+    
+    }
+    li {
+        padding-right: 20px;
+        margin-left:130px;
+        float:left;
+    }
+    ul  li  li {
+        display:block;  
+        width:100px;
+
+        color:black;
+        text-decoration:none;
+        text-align:center;
+        
+    }
+    
+    /*formulaire-blocMain*/
+
+    #Mainbloc{
+        
+        width: auto;
+        height: auto;
+        position: relative;
+    }
+    
+   img{
+       width: 100%;
+   }
+   #Formulaire{
+       position: absolute;
+       bottom: 20vw;
+       right:3vw
+       
+   }
+   #fieldset{
+       display: block;
+       width: 25vw;
+   }
+legend{
+    color: #c4c4c4;
+}
+label{
+    color: #c4c4c4;
+}
+   
+  
+   
+   /* secondbox*/
+   #Secondbloc{
+    display: flex;
+    
+    /*position: absolute;*/
+    background-color: #F3EFEF;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+    background-color: #F3EFEF;
+    position: relative;
+    flex: 1;
+    
+}
+p#text{
+    padding-bottom: 14%;
+    padding-top: 15%;
+    text-align: center;
+    position: relative;}
+#iframeBlock {
+    flex: 1;
+}
+
+
+
+#titretext{
+    font-size: 3vw;
+    text-decoration: underline;
+    margin-top: 4%;
+    margin-bottom: 20%;
+}
+
+#mapif{
+    /*position: absolute;*/
+    background-color: #F3EFEF;
+    width: 80%;
+    margin-left: 10%;
+    margin: 10% 10%;
+
+}
+.text{
+    margin-bottom: 5%;
+}
+   /*footer*/
+   
+   footer{
+
+    background-color: #162133;
+    height: 6px;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  #foot{
+    padding-top: 10px;
+    color: #C4C4C4;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    height: 15px;
+  }
+   /*Mediaquery*/
+
+  
+   @media  screen and (max-width:800px)
+   {
+       #secondbox{
+           display: flex;
+           flex-direction: column;
+       }
+       #mainblock{
+           display: flex;
+           flex-direction: column;
+       }
+       #fieldset{
+          width: auto;
+       }
+
+       #Formulaire{
+           display: block;
+           width: auto;
+           height: auto;
+
+       }
+   
+      
+       body{
+         height: auto;
+       }
+    
+    
+    
+       /* header */
+    
+    
+    
+       header{
+         height: 180px;
+       }
+    h1{
+        
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    #logopeugeot{
+        height: 90px;
+        width: 115px;
+        margin-left: 20%;
+        
+    }
+       #entete{
+         height: auto;
+       }
+       #boxlogo{
+         margin-top: 45px;
+        
+       }
+       #titre1{
+         text-align: left;
+       }
+    
+       #boxtitreetnav{
+    
+       display: flex;
+       flex-direction: column;
+    
+       }
+       .btn{
+         margin-left: 0;
+       }
+
+
+       /*secondblock*/
+    #mapif{
+        width: 80%;
+        height: 75%;
+        margin-top: 12%;
+        margin-left: 10%;
+    }
+   .text{
+       font-size: 10px;
+   }
+   footer{
+       height: 50px;
+   }
+    }

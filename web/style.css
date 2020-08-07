@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*header*/
+#page{
+  background-color: #F3EFEF;
+}
+
+
+header{
+  background-color: #162133;
+ 
+  height: 150px;
+   
+}
+
+#title{
+  margin-top: 7%;
+  height: 130px;
+  color: #c4c4c4;
+  text-align: center;
+  position: relative;
+
+}
+#boxlogo{
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  
+}
+#logopeugeot{
+  width: 200px;
+   height: 100px;
+   
+}
+
+#entete{
+  display: flex;
+  height: 200px;
+  
+}
+#boxtitreetnav{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15% ;
+  align-content: center;
+  position: relative;
+}
+
+/*menu*/
+#menu1{
+  display:flex;
+  justify-content:space-between;
+  background-color: #162133;
+  margin-bottom: 10%;
+  
+ 
+}
+a{
+  color: #C4C4C4;
+  font-size: 16px;
+  
+}
+
+
+.nav{
+  width: 100%;
+  
+}
+ul {
+  list-style-type:none;
+  
+  }
+  li {
+      padding-right: 20px;
+      margin-left:130px;
+      float:left;
+  }
+  ul  li  li {
+      display:block;  
+      width:100px;
+      text-align:center;
+      text-decoration: none;
+      
+  }
+
+
+/*MyCarousel*/
+
+h2{
+text-align: center;
+margin-top: 35px;
+
+}
+#soustitre{
+ 
+  text-align: center;
+}
+
+h4{
+  margin-top: 45px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+#container{
+  margin-top: 58px;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: block;
+}
+.carousel-item {
+  position: relative;
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  transition: -webkit-transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+
+
+
+
+
+/* partie1 photo_moteur + caractéristiques */
+
+
+h3{
+  position: absolute;
+  width: 20vw;
+  left: 54%;
+  top: 1%;
+  text-decoration: underline;
+}
+
+#partie_1{
+  position: relative;
+  background-color: #F3EFEF;
+
+}
+#img1{
+  height: auto ;
+  width:45vw;
+  padding-left: 6%;
+  padding-top: 2%;
+  
+}
+#container_bloc_droit_p1{
+  position: absolute;
+  right:19% ;
+  top:23% ;
+  background-color: #ffffff;
+  width: 40vw;
+  height: 30vh;
+  padding: 2%;
+  text-align: justify
+;
+}
+
+
+/* partie2 a propos de nous */
+
+
+
+
+
+
+#partie_2{
+  position: relative;
+background-color: #F3EFEF;
+height: 30vw;
+}
+
+#img2{
+  float: right;
+  height: auto ;
+  width:45vw;
+  height: 55vh;
+  left: 55%;
+  padding-right: 6%;
+  padding-bottom: 2%;
+  bottom: 1%;
+  ;
+  
+}
+#container_bloc_gauche_p2{
+  position: absolute;
+margin-left:12%;
+  background-color: #ffffff;
+  width: 45vw;
+  height: 35vh;
+  top: 15%;
+  left: 2%;
+  padding: 2%;
+  text-align: justify;
+  
+}
+h5{
+  position: absolute;
+  font-size: 24px;
+  left: 26%;
+  top: 3%;
+  text-decoration: underline;
+}
+
+ /*footer*/
+   
+ footer{
+
+  background-color: #162133;
+  height: 40px;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#foot{
+  padding-top: 10px;
+  color: #C4C4C4;
+}
+
+
+
+
+
+/*  tentative responsive header */
+
+@media all and (max-width:800px)
+{
+
+body{
+  height: auto;
+}
+
+
+
+/* header */
+
+
+
+header{
+  height: 190px;
+}
+h1{
+ font-size: 20px;
+ margin-top: 8%;
+}
+#logopeugeot{
+ height: 90px;
+ width: 115px;
+ margin-left: 20%;
+ 
+}
+
+#entete{
+  height: auto;
+}
+#boxlogo{
+  margin-top: 45px;
+ 
+}
+#titre1{
+  text-align: left;
+}
+
+#boxtitreetnav{
+
+display: flex;
+flex-direction: column;
+top: 2%;
+
+}
+
+.btn{
+  margin-left: 0;
+}
+
+
+/* partie1   caracteristiques */
+
+
+
+
+
+#partie_1{
+
+  margin-bottom: 10%;
+  margin-top: 10%;
+  margin-left: 3%;
+  height:600px;
+  width: 95%;
+  overflow: visible;
+
+}
+h3{
+  text-align: center;
+
+
+}
+#img1{
+  width: 400px;
+  margin-top: 15%;
+
+}
+#container_bloc_droit_p1 {
+  font-size: 0.8em;
+  width: auto;
+  height: auto;
+  top: 55%;
+  margin-left: 20%;
+  padding: 3%;
+  text-align: justify;
+  box-shadow: 1px 1px 10px rgb(195, 195, 195);
+}
+
+
+/* partie 2 a propos de nous    */
+
+#img2{
+  width: 90%;
+  height: 40%;
+  margin-top: 20%;
+  margin-left: 8%;
+  float: none;
+
+}
+
+#partie_2{
+margin-bottom: 10%;
+  margin-top: 10%;
+  margin-left: 3%;
+  height:600px;
+  width: 95%;
+  overflow: visible;
+}
+
+#container_bloc_gauche_p2{
+  font-size: 0.8em;
+  width: auto;
+  height: auto;
+  top: 65%;
+  right: 2%;
+  padding: 3%;
+  margin: 0;
+  box-shadow: 1px 1px 10px rgb(195, 195, 195);
+}
+}
